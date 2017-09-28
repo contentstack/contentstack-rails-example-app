@@ -1,0 +1,26 @@
+<div class="container">
+  <% @products.each do |product| %>
+    <div class="col-md-4 col-sm-6 col-xs-12 women-dresses">
+      <div class="women-grids wp1 animated wow slideInUp product-item" data-wow-delay=".5s">
+        <a href="/product/<%= product.get('uid') %>">
+          <div class="product-img">
+            <img src="<%= product.get('featured_image')[:url] %>" alt="">
+            <div class="p-mask">
+              <!-- <form action="#" method="post">
+                <input type="hidden" name="cmd" value="_cart">
+                <input type="hidden" name="add" value="1">
+                <input type="hidden" name="w3ls1_item" value="Shoes">
+                <input type="hidden" name="amount" value="50.00">
+                <button type="submit" class="snipcart-add-item w3ls-cart pw3ls-cart demoAlert" data-item-id="<%= product.get('uid') %>" data-item-name="<%= product.get('title') %>" data-item-price="<%= product.get('price') %>" data-item-weight="20" data-item-url="/product/<%= product.get('uid') %>">
+                  <i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart
+                </button>
+              </form> -->
+            </div>
+          </div>
+        </a>
+        <h4><%= product.get('title') %></h4>
+        <h5>$<%= product.get('discounted_price') || product.get('price') %></h5>
+      </div>
+    </div>
+  <% end %>
+</div>

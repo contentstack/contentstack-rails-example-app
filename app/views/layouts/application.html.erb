@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="/ecommerce.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+    <title>Product Catalog</title>
+    <%= csrf_meta_tags %>
+
+    <link rel="stylesheet" type="text/css" href="/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <script type="text/javascript" src="/jQuery-1.11.1.js"></script>
+    <script type="text/javascript" src="/bootstrap.js"></script>
+    <script type="text/javascript" src="/jquery.flexisel.js"></script>
+    <script type="text/javascript" src="/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="/script.js"></script>
+  </head>
+
+  <body>
+    <div class="header-top-w3layouts">
+      <div class="container">
+        <div class="col-md-6 logo-w3">
+          <a href="/">
+            <h2>Product Catalog</h2>
+          </a>
+        </div>
+        <div class="col-md-6 phone-w3l">
+          <ul>
+            <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
+            <li>+ 1800 00 000</li>
+          </ul>
+        </div>
+      <div class="clearfix"></div>
+      </div>
+    </div>
+    <%= render partial: 'partials/navigation' %>
+    <section class="main-content">
+      <%= yield %>
+    </section>
+    <%= render partial: 'partials/footer' %>
+  </body>
+</html>

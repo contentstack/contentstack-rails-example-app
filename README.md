@@ -4,8 +4,8 @@
 
 **About this project**: Create a professional website using Rails and Built.io Contentstack.
 
-![Homepage Screenshot](./sample-homepage-screenshot.png?raw=true "Homepage screenshot")
-![Product page Screenshot](./sample-product-screenshot.png?raw=true "Product page screenshot")
+![Homepage Screenshot](./Product-Catalog.png?raw=true "Homepage screenshot")
+![Product page Screenshot](./Product-Catalog-Detail.png?raw=true "Product page screenshot")
 
 ### Live Demo
 You can check the [live demo](https://contentstack-ruby-example.herokuapp.com/) to get first-hand experience of the website.

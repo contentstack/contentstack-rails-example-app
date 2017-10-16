@@ -11,8 +11,10 @@
 You can check the [live demo](https://contentstack-ruby-example.herokuapp.com/) to get first-hand experience of the website.
 
 ### Tutorial
-We have created an in-depth tutorial on how you can create a product catalog using Rails and Built.io Contentstack. By following the steps given in the tutorial, you will be able to design an online shopping website similar to the one given in the demo. 
-Tutorial to create a product catalog website using RoR and Built.io Contentstack.
+We have created an in-depth tutorial on how you can create an RoR Product Catalog app using Contentstack’s Ruby SDK. 
+Refer to the steps given in the following tutorial to create a fully functional RoR Product Catalog app.
+
+[Create an RoR Product Catalog app using Contentstack's Ruby SDK](https://www.contentstack.com/docs/example-apps/build-a-product-catalog-using-ruby-and-contentstack)
 
 ### Documentation
 * Read Built.io Contentstack [docs](https://contentstackdocs.built.io/)

@@ -18,4 +18,4 @@ Refer to the steps given in the following tutorial to create a fully functional 
 
 ### Documentation
 * Read Contentstack [docs](https://www.contentstack.com/docs/)
-* Read Ruby SDK [docs](https://github.com/builtio-contentstack/contentstack-ruby)
+* Read Ruby SDK [docs](https://github.com/contentstack/contentstack-ruby)

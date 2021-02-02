@@ -1,15 +1,15 @@
 # Add environment based contentstack configuration here
 
 default: &default
-  api_key: 'API_KEY_HERE'
-  access_token: 'ACCESS_TOKEN_HERE'
-  environment: 'production'
+  api_key: 'API_KEY'
+  access_token: 'DELIVERY_TOKEN'
+  environment: 'ENVIRONMENT'
 
 development:
   <<: *default
-  api_key: 'bltc46be1ce6b7e1e24'
-  access_token: '***REMOVED***'
-
+  api_key: 'API_KEY'
+  access_token: 'DELIVERY_TOKEN'
+  environment: 'ENVIRONMENT'
 test:
   <<: *default
   api_key: ''
@@ -17,5 +17,7 @@ test:
 
 production:
   <<: *default
-  api_key: 'bltc46be1ce6b7e1e24'
-  access_token: '***REMOVED***'
+  api_key: 'API_KEY'
+  access_token: 'DELIVERY_TOKEN'
+  environment: 'ENVIRONMENT'
+

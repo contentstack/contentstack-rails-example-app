@@ -8,7 +8,7 @@ end
 ruby '3.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '7.1.0'
+gem 'rails', '7.1.3.1'
 # Use Puma as the app server
 gem 'puma', '6.4.2'
 # Use SCSS for stylesheets
@@ -42,7 +42,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '3.6.0'
+  gem 'web-console', '3.6.1'
   gem 'listen', '3.9.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '2.0.2'

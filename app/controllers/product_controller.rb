@@ -5,7 +5,7 @@ class ProductController < ApplicationController
   end
 
   def add_to_cart
-    redirect_to "/product/#{params[:id]}"
+    redirect_to "/product/#{params[:id]}", only_path: true
   end
 
   private

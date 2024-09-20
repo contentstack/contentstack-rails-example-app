@@ -10,7 +10,7 @@ ruby '3.1.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '7.1.3.4'
 # Use Puma as the app server
-gem 'puma', '6.4.2'
+gem 'puma', '6.4.3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>=5.0.5'
 # Use Uglifier as compressor for JavaScript assets

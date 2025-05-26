@@ -44,3 +44,4 @@ jobs:
               echo "No license file found. Please add a license file to the repository."
               exit 1
           fi
+

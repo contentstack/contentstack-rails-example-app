@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: .github/workflows/secrets-scan.yml
+  ignore_detectors:
+    - filecontent
+- filename: public/jquery-2.1.1.min.js
+  checksum: 478e6b9b47b7ff8a08328179c7a2331bf066770be172128c337e81ff9fce391e
+version: "1.0"

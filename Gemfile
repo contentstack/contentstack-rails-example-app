@@ -8,7 +8,7 @@ end
 ruby '3.1.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '7.2.2.1'
+gem 'rails', '7.2.2.2'
 # Use Puma as the app server
 gem 'puma', '6.6.0'
 # Use SCSS for stylesheets
@@ -36,7 +36,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 3.39.1'
+  gem 'capybara', '~> 3.40.0'
   gem 'selenium-webdriver', '4.9.0'
 end
 

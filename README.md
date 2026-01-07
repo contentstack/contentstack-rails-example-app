@@ -1,3 +1,5 @@
+> [!WARNING]
+  **This repo is deprecated and no longer maintained. Security updates are not supported. We recommend avoiding its use.** We recommend viewing our latest [Kickstarts](https://www.contentstack.com/docs/developers/kickstarts).
 ## Create a product catalog using Rails and Contentstack
 
 **About Contentstack**: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
